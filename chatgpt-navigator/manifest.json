@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Prompt Navigator Pro",
+  "version": "1.1.0",
+  "description": "Quickly navigate through long ChatGPT conversations with an interactive sidebar",
+  "author": "MD. RAWHA SIDDIQI RIAD",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["*://chat.openai.com/*", "*://chatgpt.com/*"],
+  "content_scripts": [{
+    "matches": ["*://chat.openai.com/*", "*://chatgpt.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Click to toggle navigator",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
