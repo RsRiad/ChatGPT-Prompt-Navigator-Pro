@@ -25,6 +25,7 @@ A powerful browser extension that adds an interactive **Table of Contents** to C
 | **Smart Scroll** | Click any item to smoothly scroll to that location |
 | **SPA Support** | Works even when switching between conversations |
 | **Persistent** | Won't disappear when ChatGPT updates its interface |
+<img width="1905" height="868" alt="image" src="https://github.com/user-attachments/assets/0d815195-29ff-4d1e-bcec-69a009eed8d6" />
 
 ## 🚀 Installation
 
